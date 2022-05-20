@@ -21,17 +21,7 @@ función debe ser un módulo), para obtener la data de un nuevo usuario y la acu
 en un JSON (roommates.json).
 - El objeto correspondiente al usuario que se almacenará debe tener un id generado
 con el paquete UUID.
-- Crear una API REST que contenga las siguientes rutas:
-    a. GET /gastos: Devuelve todos los gastos almacenados en el archivo
-gastos.json.
-    b. POST /gasto: Recibe el payload con los datos del gasto y los almacena en un
-archivo JSON (gastos.json).
-    c. PUT /gasto: Recibe el payload de la consulta y modifica los datos
-almacenados en el servidor (gastos.json).
-    d. DELETE /gasto: Recibe el id del gasto usando las Query Strings y la elimine
-del historial de gastos (gastos.json).
-    e. GET /roommates: Devuelve todos los roommates almacenados en el servidor
-(roommates.json)
+- Crear una API REST que contenga las siguientes rutas: GET / POST / PUT / DELETE
 - Se debe considerar recalcular y actualizar las cuentas de los roommates luego de
 este proceso.
 - Devolver los códigos de estado HTTP correspondientes a cada situación.
